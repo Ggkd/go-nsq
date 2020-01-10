@@ -6,3 +6,6 @@ golang使用nsq
 https://github.com/nsqio/nsq
 
 https://github.com/nsqio/go-nsq
+
+## document
+https://nsq.io/overview/quick_start.html
