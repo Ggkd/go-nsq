@@ -1,0 +1,7 @@
+-http-address="0.0.0.0:4161": <addr>:<port> 监听 HTTP 客户端
+-inactive-producer-timeout=5m0s: 从上次 ping 之后，生产者驻留在活跃列表中的时长
+-tcp-address="0.0.0.0:4160": TCP 客户端监听的 <addr>:<port>
+-broadcast-address: 这个 lookupd 节点的外部地址, (默认是 OS 主机名)
+-tombstone-lifetime=45s: 生产者保持 tombstoned  的时长
+-verbose=false: 允许输出日志
+-version=false: 打印版本信息
